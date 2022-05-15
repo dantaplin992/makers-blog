@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+
+ Body {
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: whitesmoke;
+ }
+
+ .banner {
+   margin: -0.5rem;
+   text-align: center;
+   padding: 0.25rem;
+   background-color: rgb(50, 26, 50);
+   color: whitesmoke;
+   position: fixed;
+   top: 0;
+   width: 100%
+ }
+
+ .page-content {
+   width: 75%;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 6rem;
+   background-color: white;
+ }
+
+ h1, h2 {
+   text-align: center;
+ }
